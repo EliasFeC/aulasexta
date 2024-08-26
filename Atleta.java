@@ -3,16 +3,16 @@ public class Atleta {
     private static String Pais;
     private static int QtdeMedalhas;
 
-    public static String getPais() {
+    public String getPais() {
         return Pais;
     }
-    public static void setPais(String pais) {
+    public void setPais(String pais) {
         Pais = pais;
     }
-    public static int getQtdeMedalhas() {
+    public int getQtdeMedalhas() {
         return QtdeMedalhas;
     }
-    public static void setQtdeMedalhas(int qtdeMedalhas) {
+    public void setQtdeMedalhas(int qtdeMedalhas) {
         QtdeMedalhas = qtdeMedalhas;
     }
     public String getNome() {
